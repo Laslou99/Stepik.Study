@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43cc0a4d-d579-4ae0-a25e-fe04f3e581a2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dde75862-58f1-4e9e-987d-0b17db65a350" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +23,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2KyL5be6nD3aDMPukAnRuo2SF80" />
+  <component name="ProjectId" id="2KvBZ3AjerX7aNDmW9mHVRSzwqn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,22 +33,18 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/vladi/Desktop/Программирование/Java/Stepik.Study/Python/StepikPython4.2"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/vladi/Desktop/Программирование/Java/Stepik.Study/Python/StepikPython4"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\vladi\Desktop\Программирование\Java\Stepik.Study\Python\StepikPython4.2\.idea" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="43cc0a4d-d579-4ae0-a25e-fe04f3e581a2" name="Changes" comment="" />
-      <created>1674941698544</created>
+      <changelist id="dde75862-58f1-4e9e-987d-0b17db65a350" name="Changes" comment="" />
+      <created>1674845229971</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1674941698544</updated>
+      <updated>1674845229971</updated>
     </task>
     <servers />
   </component>
