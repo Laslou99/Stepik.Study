@@ -2,14 +2,16 @@ package lessen10;
 
 import java.util.Scanner;
 
-public class lessen4 {
+public class lessen7 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
+        long a = sc.nextInt();
+        long b = sc.nextInt();
+        long um = 1;
         while (a <= b) {
-            System.out.println(a + " " + a + ".$");
+            um *= a;
             a++;
         }
+        System.out.println(um);
     }
 }
