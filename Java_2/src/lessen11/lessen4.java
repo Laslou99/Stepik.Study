@@ -1,6 +1,5 @@
 package lessen11;
 
-import javax.security.sasl.SaslClient;
 import java.util.Scanner;
 
 public class lessen4 {
@@ -8,17 +7,12 @@ public class lessen4 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int k = sc.nextInt();
-        int i, year = 2020;
-        boolean is = false;
-        while(year<2300) {
-            i = k - (2 * n);
-            n++;
-            k++;
-            if (i == 0) {
-                is = true;
-                break;
-            }
-            year++;
+        int year = 2020;
+        int f = k - 2 * n;
+        if (f >= 0){
+            System.out.println(f + year);
+        } else {
+            System.out.println("Никогда");
         }
     }
 }
