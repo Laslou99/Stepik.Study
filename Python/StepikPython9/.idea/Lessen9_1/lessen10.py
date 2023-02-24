@@ -1,12 +1,14 @@
 text = input()
 glas = 0
 sogl = 0
-for i in range(len(str(n))):
-    if n[i] in "ауоыиэяюёе":
+g = "ауоыиэяюёеАУОЫИЭЯЮЁЕ"
+s = "бвгджзйклмнпрстфхцчшщБВГДЖЗЙКЛМНПРСТФХЦЧШЩ"
+
+for i in text:
+    if i in g:
         glas += 1
-        break
-    elif n[i] in "бвгджзйклмнпрстфхцчшщ":
+    if i in s:
         sogl += 1
-        break
-print("Количество гласных букв равно", glas)
-print("Количество согласных букв равно", sogl)
+
+print('Количество гласных букв равно', glas)
+print('Количество согласных букв равно', sogl)
