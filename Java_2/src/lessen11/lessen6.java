@@ -7,16 +7,14 @@ public class lessen6 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int k = sc.nextInt();
-        String p = "";
-        if (n == 0){
-            System.out.println(n);
+        String sum = "";
+        StringBuilder sum_plus = new StringBuilder(sum) ;
+        while (true){
+            sum = String.valueOf(n%k);
+            sum_plus.append(sum);
+            n /= k;
+            if (n == 0)break;
         }
-        while (n != 0) {
-            if ((k > 2) && (n < 10)){
-                p = n % k + p;
-                n /= k;
-            }
-        }
-        System.out.println(p);
+        System.out.println(sum_plus.reverse());
     }
 }
