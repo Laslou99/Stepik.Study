@@ -2,8 +2,8 @@ package lessen12;
 
 import java.util.Scanner;
 
-class Lessen_7{
-    public static void main(String[] args){
+public class Lessen_9 {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[] arr = new int[n];
